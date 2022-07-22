@@ -6,11 +6,14 @@ import open_eye from "../src/images/open_eye.png"
 export default function Header({ nomeMes, valorInvest, valorCarteira, valorTotal }) {
     return <View style={{ backgroundColor: "#401C68", padding: 16 }}>
 
-        <Text style={{ color: "white", fontSize: 16, }}>Julho <Image source={arrow_down}></Image></Text>
+        <View style={{ flexDirection: 'row' }}>
+            <Text style={{ color: "white", fontSize: 16 }}>Julho</Text>
+            <Image style={{ marginStart: 8 }} source={arrow_down} />
+        </View>
 
         <View style={{ marginTop: 26, justifyContent: "space-between", alignItems: 'center', flexDirection: 'row' }}>
             <Text style={{ color: "white", fontSize: 16 }}>Contas e cartões</Text>
-            <Image source={open_eye}></Image>
+            <Image source={open_eye} />
         </View>
 
         <View style={{ marginTop: 16, justifyContent: "space-between", flexDirection: 'row' }}>
