@@ -4,7 +4,7 @@ import right_arrows from "../src/images/right_arrows.png"
 
 export default function Banner() {
 
-    return <View style={{ padding: 16, margin: 16, backgroundColor: "#EbEBEB", borderRadius: 16 }}>
+    return <View style={{ padding: 16, marginHorizontal: 16, marginBottom: 16, backgroundColor: "#EbEBEB", borderRadius: 16 }}>
         <View>
             <Text style={{ fontSize: 16, fontWeight: "bold" }}>Descubra o valor do empréstimo que você pode levar agoramesmo:</Text>
         </View>

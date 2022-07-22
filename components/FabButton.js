@@ -6,8 +6,8 @@ export default function FabButton({ bgColor, image }) {
 
     return <View style={{
         position: 'absolute',
-        bottom: 10,
-        right: 10,
+        bottom: 76,
+        right: 16
     }}>
         <Rounded bgColor={bgColor} image={image} />
     </View>

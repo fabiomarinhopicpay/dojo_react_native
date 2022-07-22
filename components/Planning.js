@@ -4,7 +4,7 @@ import dots from "../src/images/dots.png"
 
 export default function Planning({ renda }) {
 
-    return <View style={{ padding: 16, marginHorizontal: 16, marginBottom: 16, backgroundColor: "#EbEBEB", borderRadius: 16 }}>
+    return <View style={{ padding: 16, marginHorizontal: 16, marginBottom: 76, backgroundColor: "#EbEBEB", borderRadius: 16 }}>
         <View style={{ marginTop: 8, justifyContent: "space-between", alignItems: 'center', flexDirection: 'row' }}>
             <Text style={{ fontSize: 20, fontWeight: "bold" }}>Planejamento do mês</Text>
             <Image source={dots}></Image>

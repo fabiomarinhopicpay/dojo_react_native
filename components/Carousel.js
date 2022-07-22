@@ -4,7 +4,7 @@ import Card from "./Card";
 
 export default function Carousel() {
 
-    return <View style={{ padding: 16 }}>
+    return <View style={{ padding: 8 }}>
         <View>
             <Text style={{ color: "black", fontSize: 16, fontWeight: "bold" }}>Para você </Text>
         </View>
