@@ -1,7 +1,11 @@
 import React from "react";
+import { SafeAreaView, ScrollView, View, Section, Text } from "react-native";
+import Header from "../components/Header";
 
 export default function App() {
-    return <>
-
-    </>
+    return <SafeAreaView>
+        <ScrollView>
+            <Header/>
+        </ScrollView>
+    </SafeAreaView>
 }
